@@ -1,0 +1,103 @@
+# ------------------------------------------------------------
+# Core Project Directories to Include
+# ------------------------------------------------------------
+# Keep all source and design files:
+!/src/
+!/Design/
+!/README.md
+
+# ------------------------------------------------------------
+# Java and Build Artifacts
+# ------------------------------------------------------------
+# Compiled class files
+*.class
+
+# Java archive files
+*.jar
+*.war
+*.ear
+
+# Log files and runtime data
+*.log
+hs_err_pid*
+
+# Build directories
+/bin/
+/build/
+/out/
+/target/
+
+# ------------------------------------------------------------
+# IDE-Specific Files
+# ------------------------------------------------------------
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+.settings.json
+launch.json
+
+# ------------------------------------------------------------
+# System and OS Files
+# ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# ------------------------------------------------------------
+# Temporary & Backup Files
+# ------------------------------------------------------------
+*~
+*.tmp
+*.bak
+*.swp
+*.swo
+*.old
+
+# ------------------------------------------------------------
+# Python Virtual Environments (if used for testing)
+venv/
+__pycache__/
+*.pyc
+
+# ------------------------------------------------------------
+# Draw.io and Design Export Files
+# Keep source (.drawio), ignore autosaves and cache
+*.drawio.bkp
+*.drawio~*
+*.tmp.svg
+
+# ------------------------------------------------------------
+# PDFs and Generated Reports
+# Keep final deliverables only
+Design/*.pdf
+!Design/Group4-Phase1-UseCaseSpecs.pdf
+!Design/276ProjectUml.drawio-2.pdf
+!Design/Temple_Runes_Phase1_Plan_and_UseCases.pdf
+!Design/Temple_Runes_Phase1_PM_UML_Mockups.pdf
+
+# ------------------------------------------------------------
+# Game Runtime Cache (if using file saves)
+saves/
+cache/
+userdata/
+*.sav
+*.dat
+
+# ------------------------------------------------------------
+# Git Files (Safety)
+# Never ignore core git directories
+!.gitignore
+!.gitattributes

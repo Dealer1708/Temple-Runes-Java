@@ -1,0 +1,6 @@
+module javafx.app {
+    requires javafx.controls;
+    requires javafx.fxml;
+
+    exports project276.group4;
+}
